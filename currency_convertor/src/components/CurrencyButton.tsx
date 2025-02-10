@@ -9,7 +9,7 @@ type currencyButtonProps = PropsWithChildren<{
 
 
 
-export const currencyButton = (props: currencyButtonProps): JSX.Element => {
+export const CurrencyButton = (props: currencyButtonProps): JSX.Element => {
   return (
     <View style={styles.container}>
       <Text style={styles.flag}>{props.flag}</Text>

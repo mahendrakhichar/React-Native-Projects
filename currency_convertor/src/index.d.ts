@@ -1,6 +1,6 @@
 interface Currency{
-    name: String,
-    value: Number,
-    flag: String,
-    symbol:String,
+    name: string,
+    value: number,
+    flag: string,
+    symbol:string,
 }
